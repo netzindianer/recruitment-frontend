@@ -1,8 +1,14 @@
 import Vue from 'vue'
-import App from './App.vue'
 
-Vue.config.productionTip = false
+const App = {};
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+App.components = {
+  ...require('./components.js').default
+};
+
+if (process.env.NODE_ENV == "development") {
+  const Sandbox = () => import('./modules/Sandbox/components/Sandbox.vue')
+  App.render = h => h(Sandbox)
+}
+
+new Vue(App).$mount('#app')
