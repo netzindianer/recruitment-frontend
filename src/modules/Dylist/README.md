@@ -7,7 +7,7 @@ Dynamic List
 - vuedraggable
 - lodash.clonedeep
 
-# Instalation
+# Installation
 
 - src/components.js
 ```js
