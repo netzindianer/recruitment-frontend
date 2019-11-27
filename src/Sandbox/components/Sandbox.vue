@@ -7,7 +7,7 @@
 <script>
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import SandboxRoutes from '../../../sandbox.js'
+import SandboxRoutes from '../../sandbox.js'
 
 Vue.use(VueRouter);
 

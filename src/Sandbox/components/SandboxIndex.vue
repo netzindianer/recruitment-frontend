@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import routes from '../../../sandbox.js'
+import routes from '../../sandbox.js'
 
 export default {
   data: () => { 
@@ -15,5 +15,3 @@ export default {
   }
 }
 </script>
-
-
