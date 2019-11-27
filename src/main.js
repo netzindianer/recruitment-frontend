@@ -7,7 +7,7 @@ App.components = {
 };
 
 if (process.env.NODE_ENV == "development") {
-  const Sandbox = () => import('./modules/Sandbox/components/Sandbox.vue')
+  const Sandbox = () => import('./Sandbox/components/Sandbox.vue')
   App.render = h => h(Sandbox)
 }
 

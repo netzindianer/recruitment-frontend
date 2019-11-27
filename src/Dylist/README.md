@@ -11,9 +11,12 @@ Dynamic List
 
 - src/components.js
 ```js
+/* ... */
+import Dylist from './Dylist/components/Dylist.vue';
+/* ... */
 export default {
     /* ... */
-    Dylist: () => import('./modules/Dylist/components/Dylist.vue'),
+     Dylist
     /* ... */
 }
 ```
@@ -23,9 +26,8 @@ export default {
 export default {
     routes: [
     /* ... */
-        {path: '/dylist', component: () => import('./modules/Dylist/sandbox/DylistSandbox.vue')},
+        {path: '/dylist', component: () => import('./Dylist/sandbox/DylistSandbox.vue')},
     /* ... */
     ]
 }
 ```
-

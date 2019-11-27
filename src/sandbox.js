@@ -1,5 +1,5 @@
 export default {
     routes: [
-        {path: '/dylist', component: () => import('./modules/Dylist/sandbox/DylistSandbox.vue')},
+        {path: '/dylist', component: () => import('./Dylist/sandbox/DylistSandbox.vue')},
     ]
 }

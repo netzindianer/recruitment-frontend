@@ -1,3 +1,5 @@
+import Dylist from './Dylist/components/Dylist.vue';
+
 export default {
-    Dylist: () => import('./modules/Dylist/components/Dylist.vue'),
+     Dylist
 }
