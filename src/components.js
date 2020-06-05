@@ -1,5 +1,1 @@
-import Dylist from './Dylist/components/Dylist.vue';
-
-export default {
-     Dylist
-}
+export { default as ChimeraTpl } from "./ChimeraTpl/components/ChimeraTpl";

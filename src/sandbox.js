@@ -1,5 +1,8 @@
 export default {
-    routes: [
-        {path: '/dylist', component: () => import('./Dylist/sandbox/DylistSandbox.vue')},
-    ]
-}
+  routes: [
+    {
+      path: "/ChimeraTpl",
+      component: () => import("./ChimeraTpl/sandbox/ChimeraTplSandbox.vue")
+    }
+  ]
+};
