@@ -10,6 +10,7 @@
   </div>
 </template>
 <script>
+// Styles can be imported here
 import "../style/_style.scss";
 
 export default {
