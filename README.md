@@ -1,4 +1,4 @@
-# vue-blueprint-chimera
+# recruitment-frontend
 
 ## Project setup
 ```
