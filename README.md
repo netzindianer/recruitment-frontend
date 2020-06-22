@@ -35,7 +35,7 @@ Module source code that goes to production must be placed in module `src` direct
 
 ### Main.js mechanisms
 
-The src/main.js file is main endpoint and implements diffrents mechanism.
+The src/main.js file is main endpoint and handles diffrents mechanism.
 
 #### Style
 
