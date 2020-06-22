@@ -1,1 +1,1 @@
-export { default as ChimeraTpl } from "./ChimeraTpl/components/ChimeraTpl";
+export { default as ExampleCounter } from "./ExampleCounter/src/ExampleCounter.vue";

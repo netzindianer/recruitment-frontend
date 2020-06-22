@@ -1,8 +1,12 @@
 export default {
   routes: [
     {
-      path: "/ChimeraTpl",
-      component: () => import("./ChimeraTpl/sandbox/ChimeraTplSandbox.vue")
-    }
-  ]
+      path: "/ExampleCounter",
+      component: () => import("./ExampleCounter/sandbox/ExampleCounter.vue"),
+    },
+    {
+      path: "/Reset",
+      component: () => import("./Reset/sandbox/Reset.vue"),
+    },
+  ],
 };

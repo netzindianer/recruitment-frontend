@@ -1,15 +1,15 @@
 <template>
   <div>
-    <ChimeraTpl :initialValue="3" @counterChanged="handleCounterChanged"></ChimeraTpl>
+    <ExampleCounter :initialValue="3" @counterChanged="handleCounterChanged"></ExampleCounter>
     <div>{{ childEvent }}</div>
   </div>
 </template>
 <script>
-import ChimeraTpl from "./../components/ChimeraTpl";
+import ExampleCounter from "./../src/ExampleCounter";
 
 export default {
-  name: "ChimeraTplSandbox",
-  components: { ChimeraTpl },
+  name: "ExampleCounterSandbox",
+  components: { ExampleCounter },
   data() {
     return {
       childEvent: ""
