@@ -41,7 +41,7 @@ The src/main.js file is main endpoint and handles diffrents mechanism.
 
 Mechanism to add style to project. 
 Global css using BEM methodology. 
-To register styles add imports to: `src/srtyle.scss`
+To register styles add imports to: `src/style.scss`
 
 #### Components
 
