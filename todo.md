@@ -5,10 +5,10 @@ Po zakończeniu udostępnij adres repozytorium git z utworzonym widżetem
  
 ## Opcja A (preferowana) - Jako komponent tej aplikacji Vue
  
-Więcej informacji w [README](README.md)
+Więcej informacji o aplikacji w tym repozytorium w pliku [README](README.md)
  
 1. Utwórz komponent o nazwie FeedPreview.
-2. Jako argument props `url` przyjmuje url do kanału RSS.
+2. Komponent jako argument props `url` przyjmuje url do kanału RSS.
 3. Komponent ma wyświetlać podgląd aktualnych treści w kanale RSS.
 4. Widok ma być ostylowany tak, aby był przyjazny dla internauty.
 5. Funkcja szukania. 
