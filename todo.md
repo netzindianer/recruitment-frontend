@@ -14,7 +14,7 @@ Więcej informacji w [README](README.md)
 5. Funkcja szukania. 
 Komponent ma posiadać pole input do szukania wśród wpisów.
 Szukanie ma się odbywać po tytule wpisu w kanale RSS.
-6. Komponent ma byc do użycia przez kod:
+6. Komponent ma być do użycia przez kod:
    ```html
    <feed-preview :url="https://www.gamespot.com/feeds/mashup/"></feed-preview>
    ```
