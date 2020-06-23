@@ -1,5 +1,5 @@
 
-# Utwórz komponent/widżet podglądu treści kanału RSS
+# Utwórz komponent/widżet podglądu treści wybranego przez siebie kanału RSS
  
 Po zakończeniu udostępnij adres repozytorium git z utworzonym widżetem
  
